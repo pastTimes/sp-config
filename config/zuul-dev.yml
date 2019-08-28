@@ -1,6 +1,6 @@
 spring:
   application:
-    name: zuu
+    name: zuul
   rabbitmq:
     host: 192.168.92.135
     port: 5672
