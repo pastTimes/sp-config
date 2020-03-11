@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: eureka-service
+
+server:
+  port: 2002
+
+eureka:
+  server:
+    enable-self-preservation: false
+  instance:
+    lease-renewal-interval-in-seconds: 30
+    hostname: eureka2
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://127.0.0.1:2001/eureka
